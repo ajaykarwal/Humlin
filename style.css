@@ -1,0 +1,78 @@
+body {
+  margin: auto;
+  padding: 0;
+  font: normal 400 100%/1.5 'Open Sans', sans-serif;
+  color: #222;
+  border-top: 3px solid #ee1b24;
+  text-align: center;
+}
+
+p {
+  font-size: 1em;
+}
+
+p.lead {
+  font-size: 1.25em;
+}
+
+a {
+  color: #ee1b24;
+}
+
+hr {
+  border: 0;
+  background-color: #e6e6e6;
+  height: 1px;
+  margin: 2em 0;
+}
+
+header {
+  margin: 2em 0;
+}
+
+img{
+  display: block;
+  max-width: 100%;
+  height: auto;
+}
+.wrapper {
+  padding: 2em;
+  max-width: 800px;
+  margin: auto;
+}
+
+
+.logo {
+  display: inline-block;
+  width: 260px;
+  height: auto;
+}
+
+.contact {
+  display: inline-block;
+  margin: 10px 20px;
+}
+.contact:before {
+  content: '';
+  display: inline-block;
+  width: 32px;
+  height: 32px;
+  background:red;
+  position: relative;
+  top: 10px;
+  margin-right: 5px
+}
+.email:before {
+  background: transparent url(mail.svg) no-repeat center center;
+}
+.phone:before {
+  background: transparent url(phone.svg) no-repeat center center;
+}
+
+
+
+
+
+
+
+
